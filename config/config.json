@@ -1,0 +1,39 @@
+{
+    "mechine_id": 110,
+    "database": {
+        "master": {
+            "host": "172.17.10.92",
+            "port": 3306,
+            "user": "wallet_user",
+            "passwd": "walletUserPass",
+            "db": "test"
+        },
+        "slave": {
+            "host": "172.17.10.92",
+            "port": 3306,
+            "user": "wallet_user",
+            "passwd": "walletUserPass",
+            "db": "test"
+        }
+    },
+
+    "redis-cluster": [
+        {
+            "host": "127.0.0.1",
+            "port": 7000
+        },
+        {
+            "host": "127.0.0.1",
+            "port": 7001
+        },
+        {
+            "host": "127.0.0.1",
+            "port": 7002
+        }
+    ],
+    "redis" : {
+        "host": "127.0.0.1",
+        "passwd": "",
+        "port": 6379
+    }
+}
